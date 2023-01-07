@@ -1,7 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
-
+/*Header styls*/
 .header{
     text-align: right;
     background-image: url(../images/banner/banner3.png);
@@ -36,26 +36,111 @@
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
+/*Main Content styles*/
 .main-img{
     display: flex;  
 }
 img{
-    padding-left: 360px;
+    margin-left: 360px;
 }
 .main-title{
     color:  rgba(21, 20, 20, 1);
     font-weight: 700;
     font-size: 40px;
-    padding: 170px 700px 0px 100px;
+    margin: 170px 700px 0px 100px;
 }
 .main-disc{
     font-weight: 400;
     font-size: 16px;
     color: rgba(68, 67, 67, 1);
-    padding: 0px 700px 0px 100px;
+    margin: 0px 700px 0px 100px;
 }
 .tik{
     color: blue;
 }
+/*My plan part style*/
+.my-plan{
+    color: Dark 01;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.skill-img{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.skill-title{
+    display: flex;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.web{
+    padding-left: 200px; 
+}
+.js{
+    padding-left: 170px; 
+}
+.sh{
+    padding-left: 205px; 
+}
+.eco{
+    padding-left: 200px;
+}
+.skill-disc{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(115, 114, 114, 1);
+
+}
+.develop{
+    padding-left: 310px;
+}
+.learn{
+    padding-left: 300px;
+}
+.don{
+    padding-left: 310px;
+}
+.dev{
+    padding-left: 290px;
+}
+/* img-2*/
+.img-head{
+    color:  rgb(245, 245, 245);
+    font-weight: 700;
+    font-size: 40px;
+}
+.call-now{
+    color: rgba(0, 95, 172, 1);
+    padding: 20px;
+    border-radius: 5px;
+    border-color: rgb(245, 245, 245);
+    font-weight: 600;
+    font-size: 20px;
+}
+.img-2{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 510px;
+    margin-top: 200px;
+    height: 100%;
+    width: 1200px;
+}
+.img-style{
+    padding-left: 100px;
+}
+/*Footer style*/
+
+.footer{
+    display: flex;
+}
+.f-header{
+    color: rgba(248, 248, 248, 1);
+    font-weight: 700;
+    font-size: 45px;
+}    
