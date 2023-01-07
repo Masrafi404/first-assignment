@@ -122,6 +122,7 @@ img{
     border-color: rgb(245, 245, 245);
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 .img-2{
     background-image: url(../images/watch.png);
@@ -138,9 +139,64 @@ img{
 
 .footer{
     display: flex;
+    background-color: black;
+    margin-top: 100px;
+    padding: 200px;
+    padding-right: 800px;
+}
+.f-item{
+    margin-left: 300px;
 }
 .f-header{
     color: rgba(248, 248, 248, 1);
     font-weight: 700;
     font-size: 45px;
-}    
+}
+.f-disc{
+    color: rgba(248, 248, 248, 1);
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 300px;
+}  
+.email{
+    color: rgba(248, 248, 248, 1);
+    font-weight: 400;
+    font-size: 16px;
+} 
+.number{
+    color: rgba(248, 248, 248, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+.form{
+    margin-right: 500px;
+}
+.sub1{
+    color:rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 25px;
+}
+.sub2{
+   color: rgba(255, 255, 255, 1);
+   font-weight: 600;
+   font-size: 20px;
+   border-radius: 5px;
+   padding: 18px 22px;
+   background-color: rgba(0, 95, 172, 1);
+   margin-top: 20px;
+}
+.email-inpute{
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.enter{
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(248, 248, 248, 1);
+}
