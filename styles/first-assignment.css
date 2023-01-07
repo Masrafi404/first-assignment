@@ -195,8 +195,12 @@ img{
     box-sizing: border-box;
     
 }
-.enter{
-    font-weight: 400;
+.enter-email{
+    font-weight: 400px;
     font-size: 18px;
-    color:rgba(248, 248, 248, 1);
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    background-color: black;
 }
